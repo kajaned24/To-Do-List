@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Your personal TO-DO list</h1>
+    </header>
+
+    <main>
+      <section class="to-do box">
+        <div class="add-task">
+          <h2>To-Do</h2>
+          <input
+            class="task new-to-do"
+            placeholder="Type in your task"
+            type="text"
+          />
+          <button class="to-do-submit submit">➕</button>
+        </div>
+        <div class="display-task display-to-do"></div>
+      </section>
+
+      <section class="in-progress box">
+        <div class="add-task">
+          <h2>Progressing</h2>
+          <input
+            class="task new-progress"
+            placeholder="Type in your task"
+            type="text"
+          />
+          <button class="in-progress-submit submit">➕</button>
+        </div>
+        <div class="display-task display-in-progress"></div>
+      </section>
+
+      <section class="done box">
+        <div class="add-task">
+          <h2>Done</h2>
+          <input
+            class="task new-done"
+            placeholder="Type in your task"
+            type="text"
+          />
+          <button class="done-submit submit">➕</button>
+        </div>
+        <div class="display-task display-done"></div>
+      </section>
+    </main>
+
+    <footer>
+      <h1>Katarina</h1>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
